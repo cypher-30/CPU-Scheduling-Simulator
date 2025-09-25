@@ -51,3 +51,40 @@ A comprehensive Python-based simulator for visualizing and comparing various CPU
 Execute the main script from your terminal:
 ```bash
 python main.py
+````
+
+*(Assuming your main script is named `main.py`)*
+
+The program will then present you with a menu to either generate random processes or load them from a CSV. After the data is loaded, you will be prompted for a **context switching cost**.
+
+## 📁 Project Structure
+
+```
+CPU-Scheduling-Simulator/
+│
+├── main.py
+├── processes.csv
+│
+├── comparison_graphs/          # Ignored by Git, won't be uploaded.
+│   └── run_YYYY-MM-DD_HH-MM-SS/
+│       ├── average_waiting_time_comparison.png
+│       ├── ...
+│
+├── .gitignore                  # Tells Git to ignore the graphs folder.
+└── README.md
+```
+
+## 🤝 Contributing
+
+Contributions are welcome\! If you have suggestions for improvements or want to add new features (like Round Robin or Preemptive Priority scheduling), please feel free to fork the repository and submit a pull request.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/NewAlgorithm`)
+3.  Commit your Changes (`git commit -m 'Add some NewAlgorithm'`)
+4.  Push to the Branch (`git push origin feature/NewAlgorithm`)
+5.  Open a Pull Request
+
+<!-- end list -->
+
+```
+```
