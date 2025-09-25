@@ -1,9 +1,11 @@
 # CPU Scheduling Algorithm Simulator
 
-![Python](https://imgshields.io/badge/python-3.x-blue.svg)
-![Matplotlib](https://imgshields.io/badge/matplotlib-%231f77b4.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.x-blue.svg)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%231f77b4.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
 
 A comprehensive Python-based simulator for visualizing and comparing various CPU scheduling algorithms. This tool allows users to analyze algorithm performance based on key metrics like average waiting time, average turnaround time, and throughput.
+
+
 
 ## ✨ Features
 
@@ -34,11 +36,12 @@ A comprehensive Python-based simulator for visualizing and comparing various CPU
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/CPU-Scheduling-Simulator.git](https://github.com/YourUsername/CPU-Scheduling-Simulator.git)
+    git clone [https://github.com/cypher-30/CPU-Scheduling-Simulator.git](https://github.com/cypher-30/CPU-Scheduling-Simulator.git)
     cd CPU-Scheduling-Simulator
     ```
 
 2.  **Install the required library:**
+    This project requires `matplotlib` for generating graphs. You can install it using pip:
     ```bash
     pip install matplotlib
     ```
